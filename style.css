@@ -1,0 +1,43 @@
+.container { /*Container es el contenedor principal*/
+  max-width: 400px; /*Max width traduce el ancho máximo que puede tener el contenedor*/
+  margin: 0 auto; /*Margin 0 auto centra el contenedor*/
+  padding: 20px; /*Padding es el espacio que hay entre el borde y el contenido*/
+  border: 1px solid #ccc; /*Border es el borde del contenedor*/
+  border-radius: 5px; /*Border radius es el radio de las esquinas del contenedor*/
+}
+
+h1 { /*H1 es el título principal*/
+  text-align: center; /*Text align centra el texto*/
+}
+
+form { /*Form es el formulario*/
+  margin-top: 20px; /*Margin top es el margen superior*/
+}
+
+label { /*Label es el texto que acompaña a los inputs*/
+  display: block; /*Display block hace que el texto se muestre en una línea diferente*/
+  margin-bottom: 10px; /*Margin bottom es el margen inferior*/
+}
+
+input[type="text"],  
+input[type="password"] { /*Input type es el tipo de input que se va a utilizar*/
+  width: 90%; /*Width es el ancho del input*/
+  padding: 10px; /*Padding es el espacio que hay entre el borde y el contenido*/
+  border: 1px solid #ccc; /*Border es el borde del input*/
+  border-radius: 4px; /*Border radius es el radio de las esquinas del input*/
+  margin-bottom: 15px; /*Margin bottom es el margen inferior*/
+}
+
+input[type="submit"] { /*Input type es el tipo de input que se va a utilizar*/
+  background-color: #4CAF50; /*Background color es el color de fondo*/
+  color: white; /*Color es el color del texto*/
+  padding: 10px 20px; /*Padding es el espacio que hay entre el borde y el contenido*/
+  border: none; /*Border es el borde del input*/
+  border-radius: 4px; /*Border radius es el radio de las esquinas del input*/
+  cursor: pointer; /*Cursor pointer hace que el cursor se convierta en una mano*/
+  font-size: 16px; /*Font size es el tamaño de la fuente*/
+}
+
+input[type="submit"]:hover { /*Input hover es el input cuando el cursor está encima*/
+  background-color: #45a049;
+}
