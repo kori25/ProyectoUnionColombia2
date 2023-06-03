@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html>
+
+
 <head>
-  <title>Página de inicio de sesión</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Página de inicio de sesión</title> <!-- Título de la página Cambiar a unionColombia Proyecto -->
+  <link rel="stylesheet" type="text/css" href="style.css"> <!-- Llamado al archivo css -->
 </head>
+
+
 <body>
+  <h1 id="titulo1">Facebook</h1>
   <div class="container">
     <h1>Iniciar sesión en Facebook</h1>
     <form id="login-form">
+
+
       <label for="email">Correo electrónico o número de teléfono:</label>
       <input type="text" id="email" name="email" required>
 
-      <label for="password">Contraseña:</label>
-      <input type="password" id="password" name="password" required>
+      <label for="pasword">contraseña</label><!-- Añade tu código aquí para crear un campo de contraseña -->
+      <input type="text" id="pasword" name="pasword" required>
 
-      <input type="submit" value="Iniciar sesión">
+      <button type="submit" id="login-button">Iniciar sesión</button>
+      <button type="submit" id="contraseña olvidada">¿Has olvidado la contraseña?</button>
+      <!-- Añade tu código aquí para crear un botón de "¿Has olvidado la contraseña?" -->
     </form>
   </div>
 
-  <script src="script.js"></script>
+  <script src="script.js"></script> <!-- Llamado al archivo js -->
 </body>
 </html>

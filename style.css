@@ -1,3 +1,4 @@
+
 .container { /*Container es el contenedor principal*/
   max-width: 400px; /*Max width traduce el ancho máximo que puede tener el contenedor*/
   margin: 0 auto; /*Margin 0 auto centra el contenedor*/
@@ -30,7 +31,7 @@ input[type="password"] { /*Input type es el tipo de input que se va a utilizar*/
 
 input[type="submit"] { /*Input type es el tipo de input que se va a utilizar*/
   background-color: #4CAF50; /*Background color es el color de fondo*/
-  color: white; /*Color es el color del texto*/
+  color: rgb(255, 255, 255); /*Color es el color del texto*/
   padding: 10px 20px; /*Padding es el espacio que hay entre el borde y el contenido*/
   border: none; /*Border es el borde del input*/
   border-radius: 4px; /*Border radius es el radio de las esquinas del input*/
@@ -40,4 +41,7 @@ input[type="submit"] { /*Input type es el tipo de input que se va a utilizar*/
 
 input[type="submit"]:hover { /*Input hover es el input cuando el cursor está encima*/
   background-color: #45a049;
+}
+#titulo1{
+  color: blue;
 }
